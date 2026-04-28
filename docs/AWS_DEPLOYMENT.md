@@ -321,7 +321,7 @@ usermod -aG docker rusternetes
 
 # Clone repository
 cd /home/rusternetes
-git clone https://github.com/yourusername/rusternetes.git
+git clone <repository-url>
 chown -R rusternetes:rusternetes rusternetes
 
 # Mark initialization complete

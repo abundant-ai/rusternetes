@@ -15,7 +15,7 @@ The web console (`https://localhost:6443/console/`) deploys automatically in all
 The standard deployment. Separate containers for each component with etcd for state storage. Works with both Podman and Docker.
 
 ```bash
-git clone https://github.com/calfonso/rusternetes.git
+git clone <repository-url>
 cd rusternetes
 
 export KUBELET_VOLUMES_PATH=$(pwd)/.rusternetes/volumes

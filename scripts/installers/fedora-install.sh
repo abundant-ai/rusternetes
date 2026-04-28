@@ -324,7 +324,7 @@ clone_repository() {
         sudo -u "$USER" git pull || true
     else
         mkdir -p "$(dirname "$INSTALL_DIR")"
-        git clone https://github.com/yourusername/rusternetes.git "$INSTALL_DIR"
+        git clone <repository-url> "$INSTALL_DIR"
         chown -R "$USER:$USER" "$INSTALL_DIR"
         log_info "Repository cloned successfully"
     fi

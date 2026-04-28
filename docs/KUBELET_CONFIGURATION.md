@@ -229,7 +229,7 @@ Production deployment using systemd:
 # /etc/systemd/system/kubelet.service
 [Unit]
 Description=Rusternetes Kubelet
-Documentation=https://github.com/yourusername/rusternetes
+Documentation=
 After=network.target
 
 [Service]

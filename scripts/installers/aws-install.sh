@@ -52,7 +52,7 @@ SKIP_CLEANUP=false
 NON_INTERACTIVE=false
 VPC_CIDR="10.0.0.0/16"
 INSTALL_DIR="/home/ec2-user/rusternetes"
-GITHUB_REPO="https://github.com/yourusername/rusternetes.git"
+GITHUB_REPO="<repository-url>"
 
 # Resource tracking (for cleanup)
 VPC_ID=""

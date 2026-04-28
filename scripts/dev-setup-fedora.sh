@@ -318,7 +318,7 @@ setup_repository() {
         log_warn "Project directory not found at $PROJECT_DIR"
         echo "Please clone the repository manually:"
         echo "  cd /home/$CURRENT_USER"
-        echo "  git clone https://github.com/yourusername/rusternetes.git"
+        echo "  git clone <repository-url>"
         echo "  cd rusternetes"
         return 1
     fi

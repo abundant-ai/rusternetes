@@ -18,7 +18,6 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Rusternetes Contributors"]
 license = "Apache-2.0"
-repository = "https://github.com/rusternetes/rusternetes"
 
 [workspace.dependencies]
 tokio = { version = "1.40", features = ["full"] }

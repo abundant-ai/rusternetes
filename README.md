@@ -69,7 +69,7 @@ The all-in-one mode is built for environments where a full K8s cluster is overki
 ### Full cluster (Podman + etcd)
 
 ```bash
-git clone https://github.com/calfonso/rusternetes.git
+git clone <repository-url>
 cd rusternetes
 
 export KUBELET_VOLUMES_PATH=$(pwd)/.rusternetes/volumes
@@ -85,7 +85,7 @@ kubectl create deployment nginx --image=nginx
 ### Full cluster (Docker Compose + etcd)
 
 ```bash
-git clone https://github.com/calfonso/rusternetes.git
+git clone <repository-url>
 cd rusternetes
 
 export KUBELET_VOLUMES_PATH=$(pwd)/.rusternetes/volumes

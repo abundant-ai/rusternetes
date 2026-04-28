@@ -290,6 +290,6 @@ sudo ip netns del testns
 
 ## Support
 
-- Issues: https://github.com/your-repo/rusternetes/issues
+- Issues: 
 - CNI Spec: https://www.cni.dev/docs/spec/
 - Plugins: https://github.com/containernetworking/plugins

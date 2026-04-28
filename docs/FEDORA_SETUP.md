@@ -156,7 +156,7 @@ getenforce
 ```bash
 # Clone from GitHub
 cd ~
-git clone https://github.com/yourusername/rusternetes.git
+git clone <repository-url>
 cd rusternetes
 
 # Or if you already have it

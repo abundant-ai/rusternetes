@@ -1510,7 +1510,7 @@ rusternetes-api-server \
 ## Support
 
 For issues or questions:
-- GitHub Issues: [rusternetes/rusternetes](https://github.com/rusternetes/rusternetes/issues)
+- GitHub Issues: [rusternetes/rusternetes]()
 - Documentation: [docs/](../docs/)
 - Implementation Plan: [IMPLEMENTATION_PLAN.md](../planning/IMPLEMENTATION_PLAN.md)
 

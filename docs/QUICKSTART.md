@@ -46,7 +46,7 @@ sudo usermod -aG docker $USER
 ## Start the Cluster
 
 ```bash
-git clone https://github.com/calfonso/rusternetes.git
+git clone <repository-url>
 cd rusternetes
 
 export KUBELET_VOLUMES_PATH=$(pwd)/.rusternetes/volumes
